@@ -113,3 +113,9 @@ button:hover {
   background-color: #5d5f5e;
 }
 
+#certificateLogo {
+  display: block;
+  margin: 20px auto 0; 
+  max-width: 100px; 
+  height: auto; 
+}
