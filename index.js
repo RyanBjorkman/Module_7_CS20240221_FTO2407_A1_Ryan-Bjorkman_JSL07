@@ -48,5 +48,14 @@ document.addEventListener('DOMContentLoaded', function () {
     closeModal.addEventListener('click', function () {
       modal.style.display ='none'; //hide the modal      
     });
+
+    window.addEventListener('click', function (e) {
+      if (e.target === modal) {
+        modal.style.display = 'none'; 
+      }
+    });//close modal if user clicks outside of it 
   });
+
+  
+
   
